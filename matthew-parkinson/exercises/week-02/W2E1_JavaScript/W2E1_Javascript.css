@@ -1,0 +1,203 @@
+* {
+  box-sizing: border-box;
+}
+
+
+html {
+    height:100%;
+}
+
+
+body {
+    margin:0;
+    height:100%;
+    text-align:center;
+}
+
+p {
+    width: 43.75rem;
+    margin: 0.2rem auto 0.2rem auto;
+   
+
+}
+
+.linkTable {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    width: 43.75rem;
+    margin: 2rem auto 2rem auto;
+    border-color: #f0f0f0;
+}
+
+.colorForm {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    width: 43.75rem;
+    margin: 2rem auto 2rem auto;
+    border-color: #f0f0f0;
+}
+
+.colorForm2 {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    width: 43.75rem;
+    margin: 2rem auto 2rem auto;
+    border-color: #f0f0f0;
+}
+
+#my-form input:focus, form textarea:focus {
+    background-color: #f4f4f4;
+    
+}
+#my-form {
+    margin-bottom: 0.1rem;
+}
+
+
+.myTable1 {
+    border-collapse: collapse;
+    width: 100%;
+    
+}
+
+th {
+    border: 1px solid #dddddd;
+    border-color: white;
+    text-align: left;
+    padding: 0px;
+}
+
+td {
+    border: 1px solid #dddddd;
+    border-color: white;
+    text-align: left;
+    padding: 8px;
+}
+
+.section1 {
+    width: 43.75rem;
+    margin: 40rem auto 1rem auto;
+    border-style: solid;
+    border-color: #f0f0f0;
+}
+
+#gallery {
+    margin: auto auto auto auto;
+    text-align: left;
+    padding: 8px;
+}
+
+
+.section2 {
+    width: 43.75rem;
+    margin: 40rem auto 1rem auto;
+    border-style: solid;
+    border-color: #f0f0f0;
+}
+
+.section3 {
+    width: 43.75rem;
+    margin: 30rem auto 40rem auto;
+    border-style: solid;
+    border-color: #f0f0f0;
+}
+
+.footer {
+    margin: 30rem auto 30rem auto;
+}
+
+
+.backToTop {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    width: 43.75rem;
+    margin: 4rem auto 30rem auto;
+}
+
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: relative;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: #464646;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(149, 149, 149, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #171717;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}

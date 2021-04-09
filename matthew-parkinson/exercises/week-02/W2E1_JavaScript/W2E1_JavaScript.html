@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="W2E1_Javascript.css">
+     
+ <script src="W2E1_JavaScript.js"></script> 
+    
+    <meta charset="UTF-8">
+    
+    
+    
+        <title>Clothes Shopping</title>
+        <style>
+            .invalid {
+                background: white;
+            }
+        </style>
+    
+<div id="wrapper">
+    <p id ="backUp"></p>
+<head>
+    
+    <div class="container1">
+
+        <h1>Clothes Shopping</h1>
+        
+    </div>
+</head>
+</div>
+
+    
+    
+    
+<body>
+    
+<div class="linkTable">
+    <table id="links_section">
+        <tr>
+            <th>
+                Click links below to navigate
+            </th>
+        </tr>
+        <tr>
+            <td><a href="#page1">Footwear</a></td>
+        </tr>
+        <tr>
+            <td><a href="#page2">T-Shirts</a></td>
+        </tr>
+        <tr>
+            <td><a href="#page3">Pants</a></td>
+        </tr>
+    </table> 
+
+</div>
+    
+<div class="colorForm">
+    <table id="tableForm">
+        
+        <tr>
+            <th>
+                Write color below to change color of form
+            </th>
+        </tr>
+        <tr>
+            <td>
+                <form id="my-form" onsubmit="return validateForm()">
+                    
+                    <div class="formDiv">
+                        
+                    <label for="color"></label><br>
+                    <input type="text" id="color" name="color"><br>
+                    </div>
+                    
+                </form>
+                <script>
+                    
+                    function changeColor() {
+                        
+                        let color = document.getElementById('color').value;
+                        document.body.style.backgroundColor = color;
+                    }
+                    
+                    
+                    
+                </script>
+                <input type="submit" value="Submit" onclick="changeColor()">
+            </td>
+        </tr>
+
+    </table> 
+
+</div>
+    
+<div class="colorForm2">
+    <table id="tableForm">
+        <tr>
+            <th>
+                Search Items in the shop below
+            </th>
+        </tr>
+        <tr>
+            <td>
+                <form id="my-form">
+                    
+                    <div class="formDiv">
+                        
+                    <label for="color"></label><br>
+                    <input type="text" id="color" name="color"><br>
+                    </div>
+                    
+                </form>
+                
+                <input type="submit" value="Search">
+            </td>
+        </tr>
+
+    </table> 
+
+</div>
+    
+    
+    
+    
+    
+<div class="section1">
+    <table id="myTable1">
+    
+    
+    
+    <tr> 
+    <th><p id ="page1"></p>Footwear</th>
+    </tr>
+        
+    <tr>
+    <td>Browse our wide range of footwear below, simply click on the picture to display the item in a larger view. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vehicula, arcu vitae efficitur egestas, nunc orci congue sem, id posuere leo turpis a elit. Donec eget lorem cursus, imperdiet lorem et, facilisis arcu. Proin vel sodales est, vulputate sodales quam.</td>
+    
+    </tr>
+   
+    </table>
+    
+<div class="container">
+
+  <!-- Full-width images with number text -->
+  <div class="mySlides">
+    <div class="numbertext">1 / 6</div>
+      <img src="shoe1.jpg" width="200" height="200">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 6</div>
+      <img src="shoe2.jpg" width="200" height="200">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 6</div>
+      <img src="shoe3.jpg" width="200" height="200">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">4 / 6</div>
+      <img src="shoe4.jpg" width="200" height="200">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 / 6</div>
+      <img src="shoe5.jpg" width="200" height="200">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">6 / 6</div>
+      <img src="shoe6.jpg" width="200" height="200">
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+  <!-- Image text -->
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <!-- Thumbnail images -->
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="shoe1.jpg" width="100" height="100" onclick="currentSlide(1)" alt="shoe1">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="shoe2.jpg" width="100" height="100" onclick="currentSlide(2)" alt="shoe2">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="shoe3.jpg" width="100" height="100" onclick="currentSlide(3)" alt="shoe3">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="shoe4.jpg" width="100" height="100" onclick="currentSlide(4)" alt="shoe4">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="shoe5.jpg" width="100" height="100" onclick="currentSlide(5)" alt="shoe5">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="shoe6.jpg" width="100" height="100" onclick="currentSlide(6)" alt="shoe6">
+    </div>
+  </div>
+</div>
+</div>
+    
+    <!-- Container for the image gallery -->
+
+
+ 
+<div class="section2">
+    <table id="myTable1">
+    
+    
+    
+    <tr> 
+    <th><p id ="page2"></p>T-shirts</th>
+    </tr>
+        
+    <tr>
+    <td>Browse our wide range of t-shirts below, simply click on the picture to display the item in a larger view. Quisque consectetur dui quis dui molestie, vitae finibus leo feugiat. Suspendisse blandit dolor neque, sed luctus ante tincidunt a. Donec dignissim varius ligula sit amet pharetra. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</td>
+    </tr>
+    
+    </table>
+    
+    
+<div class="container">
+
+  <!-- Full-width images with number text -->
+  <div class="mySlides">
+    <div class="numbertext">1 / 6</div>
+      <img src="tshirt1.jpeg" width="200" height="200">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 6</div>
+      <img src="tshirt2.jpeg" width="200" height="200">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 6</div>
+      <img src="tshirt3.jpeg" width="200" height="200">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">4 / 6</div>
+      <img src="tshirt4.jpeg" width="200" height="200">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 / 6</div>
+      <img src="tshirt5.jpeg" width="200" height="200">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">6 / 6</div>
+      <img src="tshirt6.jpeg" width="200" height="200">
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+  <!-- Image text -->
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <!-- Thumbnail images -->
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="tshirt1.jpeg" width="100" height="100" onclick="currentSlide(1)" alt="tshirt1">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="tshirt2.jpeg" width="100" height="100" onclick="currentSlide(2)" alt="tshirt2">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="tshirt3.jpeg" width="100" height="100" onclick="currentSlide(3)" alt="tshirt3">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="tshirt4.jpeg" width="100" height="100" onclick="currentSlide(4)" alt="tshirt4">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="tshirt5.jpeg" width="100" height="100" onclick="currentSlide(5)" alt="tshirt5">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="tshirt6.jpeg" width="100" height="100" onclick="currentSlide(6)" alt="tshirt6">
+    </div>
+  </div>
+</div>
+</div>
+    
+<div class="section3">
+    <table id="myTable1">
+    
+    
+    
+    <tr> 
+    <th><p id ="page3"></p>Pants</th>
+    </tr>
+        
+    <tr>
+    <td>Browse our wide range of pants below, simply click on the picture to display the item in a larger view. Donec nec pharetra nisl. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Curabitur accumsan aliquet lacus sit amet sollicitudin. Sed vitae auctor eros. Nunc sed consequat velit. Quisque tempus lectus lorem, eu imperdiet lacus egestas in.</td>
+    </tr>
+    
+    </table>
+    
+    
+<div class="container">
+
+  <!-- Full-width images with number text -->
+  <div class="mySlides">
+    <div class="numbertext">1 / 6</div>
+      <img src="pants1.jpeg" width="200" height="200">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 6</div>
+      <img src="pants2.jpeg" width="200" height="200">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 6</div>
+      <img src="pants3.jpeg" width="200" height="200">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">4 / 6</div>
+      <img src="pants4.jpeg" width="200" height="200">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 / 6</div>
+      <img src="pants5.jpeg" width="200" height="200">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">6 / 6</div>
+      <img src="pants6.jpeg" width="200" height="200">
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+  <!-- Image text -->
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <!-- Thumbnail images -->
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="pants1.jpeg" width="100" height="100" onclick="currentSlide(1)" alt="pants1">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="pants2.jpeg" width="100" height="100" onclick="currentSlide(2)" alt="pants2">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="pants3.jpeg" width="100" height="100" onclick="currentSlide(3)" alt="pants3">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="pants4.jpeg" width="100" height="100" onclick="currentSlide(4)" alt="pants4">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="pants5.jpeg" width="100" height="100" onclick="currentSlide(5)" alt="pants5">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="pants6.jpeg" width="100" height="100" onclick="currentSlide(6)" alt="pants6">
+    </div>
+  </div>
+</div>
+</div>
+    
+    
+    
+    
+    
+    
+</body>
+    
+<footer>
+
+<div class="backToTop">
+    <table id="backToTop">
+        <tr>
+            <td><a href="#backUp">Back to Top</a></td>
+        </tr>
+   
+    </table> 
+
+</div>
+    
+    
+</footer>
+    
+</html>

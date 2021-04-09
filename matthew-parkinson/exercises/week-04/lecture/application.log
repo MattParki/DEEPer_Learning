@@ -1,0 +1,5 @@
+[2021-02-09T15:02:04.284722+00:00] application.WARNING: Warning messages may not need immediate attention [] []
+[2021-02-09T15:03:14.072514+00:00] application.WARNING: Warning messages may not need immediate attention [] []
+[2021-02-09T15:03:14.084452+00:00] application.ALERT: This is an alert - something more critical has happened [] []
+[2021-02-09T15:09:11.892635+00:00] application.WARNING: Warning messages may not need immediate attention [] []
+[2021-02-09T15:09:11.899120+00:00] application.ALERT: This is an alert - something more critical has happened [] []

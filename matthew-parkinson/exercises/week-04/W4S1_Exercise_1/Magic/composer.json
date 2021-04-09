@@ -1,0 +1,22 @@
+{
+    "name": "user/lecture",
+    "description": "My Project",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Matt Parkinson",
+            "email": "mattparkinson_12@hotmail.com"
+        }
+    ],
+    "require-dev": {
+        "roave/security-advisories": "dev-master"
+    },
+    "require": {
+        "filp/whoops": "^2.9",
+        "symfony/var-dumper": "^5.2",
+        "vlucas/phpdotenv": "^5.3",
+        "monolog/monolog": "^2.2",
+        "guzzlehttp/guzzle": "^7.2",
+        "nesbot/carbon": "^2.45"
+    }
+}

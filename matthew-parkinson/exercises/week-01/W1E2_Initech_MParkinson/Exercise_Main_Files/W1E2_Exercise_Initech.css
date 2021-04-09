@@ -1,0 +1,224 @@
+* {
+    
+    margin: auto auto auto auto;
+    padding: 0rem;
+    box-sizing: border-box;
+}
+
+p {
+    font-family: 
+}
+
+
+h4 {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.container {
+    width: 43.75rem; 
+    margin: 1rem auto auto auto;
+    border-style: solid;
+    border-color: #f0f0f0;
+    border-width: thin;
+    font-size: 0.8rem;
+}
+
+.container2 {
+    width: 41.875rem; 
+    margin: 0.625rem auto 5.625rem auto;
+    border-color: #f0f0f0;
+}
+
+.container3 {
+    width: 23.125rem; 
+    margin: 0.625rem auto 0.625rem auto;
+    float: right;
+}
+
+.container4 {
+/*    color: #130aff;*/
+    width: 23.125rem; 
+    margin: 0.625rem auto 0.625rem auto;
+    float: right;
+}
+
+.container5 {
+    width: 23.125rem; 
+    margin: 0.0625rem auto 0.625rem auto;
+    float: left;
+}
+
+.container7 {
+    width: 43.75rem; 
+    margin: 1.25rem auto 1.25rem auto;
+    border-style: solid;
+    border-color: #ffffff;
+/*    border-width: thin;*/
+    font-size: 0.75rem;
+}
+
+.container8 {
+    width: 43.75rem; 
+    margin: auto auto 1.25rem auto;
+    border-style: solid;
+    border-color: #f0f0f0;
+    border-width: thin;
+    font-size: 0.75rem;
+    border-color: #f0f0f0;
+}
+
+.container9 {
+    background: #ffffff;
+    border: 0.0625rem solid #f0f0f0;
+    width: 41.875rem; 
+    margin: 0.625rem auto 0.625rem auto;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+}
+
+.container10 {
+    background: #ffffff;
+    border: 0.0625rem solid #f0f0f0;
+    width: 41.875rem; 
+    margin: 0.625rem auto 0.625rem auto;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+}
+
+.container11 {
+    background: #ffffff;
+    border: 0.0625rem solid #e6e6e6;
+    width: 41.875rem; 
+    margin: 0.625rem auto 1.875rem auto;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+}
+
+.container15 {
+    background: #ffffff;
+    border: 0.0625rem solid #e6e6e6;
+    width: 41.875rem; 
+    margin: 0.625rem auto 0.625rem auto;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    border-top: none;   
+}
+
+
+.container16 {
+    width: 23.125rem; 
+    margin: 0.625rem auto 0.625rem auto;
+    float: left;
+}
+
+.container17 {
+    width: 43.75rem; 
+    margin: auto auto 0.625rem auto;
+    border-style: solid;
+    border-color: #bcbcbc;
+    border-width: thin;
+    font-size: 0.75rem;
+    border-color: #e6e6e6;
+}
+
+.container18 {
+    width: 43.75rem; 
+    margin: auto auto auto auto;
+    border-style: hidden;
+    border-color: #ffffff;
+    border-width:inherit;
+    font-size: 0.75rem;
+    float: left;
+    
+}
+
+.container19 {
+    background: #ffffff;
+    border: 0.0625rem solid #e6e6e6;
+    width: 41.875rem; 
+    margin: 0.625rem auto 0.625rem auto;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    border-top: none;   
+}
+
+.container20 {
+    width: 43.75rem; 
+    margin: auto auto 0.625rem auto;
+    border-style: solid;
+    border-color: #bcbcbc;
+    border-width: thin;
+    font-size: 0.75rem;
+    border-color: #e6e6e6;
+}
+
+.container21 {
+    margin: 0.625rem auto 0.625rem auto;
+}
+
+td 
+{
+    height: 1.25rem; 
+    width: 6.25rem;
+    position: center;
+    
+}
+
+#cssTable td 
+{
+    text-align: center; 
+    vertical-align: middle;
+}
+
+
+.scaled {
+    float: left;
+    width: auto;
+    height: auto;
+    position: absolute;
+}
+
+.paragraph1 {
+    float: right;
+    position: relative;
+}
+
+button:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+  transition: .2s ease-in;
+}
+
+button {
+  background-color: #1f5bff; /* Green */
+  border: none;
+  border-radius: 0.1875rem;
+  color: white;
+  padding: 0.4375rem 0.75rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 0.625rem;
+}
+
+
+.stars {
+    width:5rem;  
+    height:1.125rem;  
+}
+
+@viewport {
+    zoom: 1.0;
+    width: extend-to-zoom;
+}
+
+@-ms-viewport{
+    width: extend-to-zoom;
+    zoom: 1:0;
+}

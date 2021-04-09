@@ -1,0 +1,44 @@
+body {
+    font-family: Helvetica Neue, Arial;
+     font-size: 12px;
+    
+}
+
+
+form {
+    width: 300px
+}
+
+
+input {
+    width: 100px
+}
+
+textarea{
+    resize: vertical;
+    max-height: 100px;
+}
+
+input:focus, textarea:focus {
+    box-shadow: 0 0 4px rgba(255, 0, 0, 0.5);
+    outline: rgba(255, 0, 0, 0.5);
+    border: 1px solid rgba(255, 0, 0, 0.5);
+    
+}
+
+h1, h2 {
+    color: #194098;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+p {
+    text-align: justify;
+
+}
